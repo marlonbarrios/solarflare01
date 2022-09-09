@@ -70,7 +70,9 @@ particles[i].update(amp > 220)
 }
 
 
-function mouseClicked() {
+
+
+function mousePressed() {
   if (song.isPlaying()) {
     song.pause()
     noLoop()

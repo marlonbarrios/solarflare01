@@ -70,8 +70,6 @@ particles[i].update(amp > 220)
 }
 
 
-
-
 function mousePressed() {
   if (song.isPlaying()) {
     song.pause()
